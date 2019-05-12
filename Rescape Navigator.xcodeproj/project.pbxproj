@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		549DA2CD22887220004E1B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549DA2CC22887220004E1B6E /* AppDelegate.swift */; };
+		549DA2CF22887220004E1B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549DA2CE22887220004E1B6E /* ViewController.swift */; };
+		549DA2D122887225004E1B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549DA2D022887225004E1B6E /* Assets.xcassets */; };
+		549DA2D422887225004E1B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549DA2D222887225004E1B6E /* Main.storyboard */; };
+		549DA2E022887225004E1B6E /* NetscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549DA2DF22887225004E1B6E /* NetscapeTests.swift */; };
+		549DA2EB22887225004E1B6E /* NetscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549DA2EA22887225004E1B6E /* NetscapeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		549DA2DC22887225004E1B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549DA2C12288721F004E1B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549DA2C822887220004E1B6E;
+			remoteInfo = Netscape;
+		};
+		549DA2E722887225004E1B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 549DA2C12288721F004E1B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 549DA2C822887220004E1B6E;
+			remoteInfo = Netscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		549DA2C922887220004E1B6E /* Rescape Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rescape Navigator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		549DA2CC22887220004E1B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		549DA2CE22887220004E1B6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		549DA2D022887225004E1B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		549DA2D322887225004E1B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		549DA2D522887225004E1B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549DA2D622887225004E1B6E /* Netscape.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Netscape.entitlements; sourceTree = "<group>"; };
+		549DA2DB22887225004E1B6E /* Rescape NavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rescape NavigatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		549DA2DF22887225004E1B6E /* NetscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetscapeTests.swift; sourceTree = "<group>"; };
+		549DA2E122887225004E1B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549DA2E622887225004E1B6E /* Rescape NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rescape NavigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		549DA2EA22887225004E1B6E /* NetscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetscapeUITests.swift; sourceTree = "<group>"; };
+		549DA2EC22887225004E1B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549DA2C622887220004E1B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549DA2D822887225004E1B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549DA2E322887225004E1B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		549DA2C02288721F004E1B6E = {
+			isa = PBXGroup;
+			children = (
+				549DA2CB22887220004E1B6E /* Netscape */,
+				549DA2DE22887225004E1B6E /* NetscapeTests */,
+				549DA2E922887225004E1B6E /* NetscapeUITests */,
+				549DA2CA22887220004E1B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		549DA2CA22887220004E1B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549DA2C922887220004E1B6E /* Rescape Navigator.app */,
+				549DA2DB22887225004E1B6E /* Rescape NavigatorTests.xctest */,
+				549DA2E622887225004E1B6E /* Rescape NavigatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549DA2CB22887220004E1B6E /* Netscape */ = {
+			isa = PBXGroup;
+			children = (
+				549DA2CC22887220004E1B6E /* AppDelegate.swift */,
+				549DA2CE22887220004E1B6E /* ViewController.swift */,
+				549DA2D022887225004E1B6E /* Assets.xcassets */,
+				549DA2D222887225004E1B6E /* Main.storyboard */,
+				549DA2D522887225004E1B6E /* Info.plist */,
+				549DA2D622887225004E1B6E /* Netscape.entitlements */,
+			);
+			path = Netscape;
+			sourceTree = "<group>";
+		};
+		549DA2DE22887225004E1B6E /* NetscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				549DA2DF22887225004E1B6E /* NetscapeTests.swift */,
+				549DA2E122887225004E1B6E /* Info.plist */,
+			);
+			path = NetscapeTests;
+			sourceTree = "<group>";
+		};
+		549DA2E922887225004E1B6E /* NetscapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				549DA2EA22887225004E1B6E /* NetscapeUITests.swift */,
+				549DA2EC22887225004E1B6E /* Info.plist */,
+			);
+			path = NetscapeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549DA2C822887220004E1B6E /* Rescape Navigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549DA2EF22887225004E1B6E /* Build configuration list for PBXNativeTarget "Rescape Navigator" */;
+			buildPhases = (
+				549DA2C522887220004E1B6E /* Sources */,
+				549DA2C622887220004E1B6E /* Frameworks */,
+				549DA2C722887220004E1B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rescape Navigator";
+			productName = Netscape;
+			productReference = 549DA2C922887220004E1B6E /* Rescape Navigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		549DA2DA22887225004E1B6E /* Rescape NavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549DA2F222887225004E1B6E /* Build configuration list for PBXNativeTarget "Rescape NavigatorTests" */;
+			buildPhases = (
+				549DA2D722887225004E1B6E /* Sources */,
+				549DA2D822887225004E1B6E /* Frameworks */,
+				549DA2D922887225004E1B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549DA2DD22887225004E1B6E /* PBXTargetDependency */,
+			);
+			name = "Rescape NavigatorTests";
+			productName = NetscapeTests;
+			productReference = 549DA2DB22887225004E1B6E /* Rescape NavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		549DA2E522887225004E1B6E /* Rescape NavigatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549DA2F522887225004E1B6E /* Build configuration list for PBXNativeTarget "Rescape NavigatorUITests" */;
+			buildPhases = (
+				549DA2E222887225004E1B6E /* Sources */,
+				549DA2E322887225004E1B6E /* Frameworks */,
+				549DA2E422887225004E1B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549DA2E822887225004E1B6E /* PBXTargetDependency */,
+			);
+			name = "Rescape NavigatorUITests";
+			productName = NetscapeUITests;
+			productReference = 549DA2E622887225004E1B6E /* Rescape NavigatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549DA2C12288721F004E1B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = viksn0w;
+				TargetAttributes = {
+					549DA2C822887220004E1B6E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					549DA2DA22887225004E1B6E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 549DA2C822887220004E1B6E;
+					};
+					549DA2E522887225004E1B6E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 549DA2C822887220004E1B6E;
+					};
+				};
+			};
+			buildConfigurationList = 549DA2C422887220004E1B6E /* Build configuration list for PBXProject "Rescape Navigator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 549DA2C02288721F004E1B6E;
+			productRefGroup = 549DA2CA22887220004E1B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549DA2C822887220004E1B6E /* Rescape Navigator */,
+				549DA2DA22887225004E1B6E /* Rescape NavigatorTests */,
+				549DA2E522887225004E1B6E /* Rescape NavigatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		549DA2C722887220004E1B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549DA2D122887225004E1B6E /* Assets.xcassets in Resources */,
+				549DA2D422887225004E1B6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549DA2D922887225004E1B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549DA2E422887225004E1B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549DA2C522887220004E1B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549DA2CF22887220004E1B6E /* ViewController.swift in Sources */,
+				549DA2CD22887220004E1B6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549DA2D722887225004E1B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549DA2E022887225004E1B6E /* NetscapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		549DA2E222887225004E1B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549DA2EB22887225004E1B6E /* NetscapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		549DA2DD22887225004E1B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 549DA2C822887220004E1B6E /* Rescape Navigator */;
+			targetProxy = 549DA2DC22887225004E1B6E /* PBXContainerItemProxy */;
+		};
+		549DA2E822887225004E1B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 549DA2C822887220004E1B6E /* Rescape Navigator */;
+			targetProxy = 549DA2E722887225004E1B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		549DA2D222887225004E1B6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549DA2D322887225004E1B6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		549DA2ED22887225004E1B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		549DA2EE22887225004E1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		549DA2F022887225004E1B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Netscape/Netscape.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SKMBYM2D86;
+				INFOPLIST_FILE = Netscape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vk.test.rescape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		549DA2F122887225004E1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Netscape/Netscape.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SKMBYM2D86;
+				INFOPLIST_FILE = Netscape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vk.test.rescape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		549DA2F322887225004E1B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SKMBYM2D86;
+				INFOPLIST_FILE = NetscapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vk.test.NetscapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rescape Navigator.app/Contents/MacOS/Rescape Navigator";
+			};
+			name = Debug;
+		};
+		549DA2F422887225004E1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SKMBYM2D86;
+				INFOPLIST_FILE = NetscapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vk.test.NetscapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rescape Navigator.app/Contents/MacOS/Rescape Navigator";
+			};
+			name = Release;
+		};
+		549DA2F622887225004E1B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SKMBYM2D86;
+				INFOPLIST_FILE = NetscapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vk.test.NetscapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Netscape;
+			};
+			name = Debug;
+		};
+		549DA2F722887225004E1B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SKMBYM2D86;
+				INFOPLIST_FILE = NetscapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vk.test.NetscapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Netscape;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549DA2C422887220004E1B6E /* Build configuration list for PBXProject "Rescape Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549DA2ED22887225004E1B6E /* Debug */,
+				549DA2EE22887225004E1B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549DA2EF22887225004E1B6E /* Build configuration list for PBXNativeTarget "Rescape Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549DA2F022887225004E1B6E /* Debug */,
+				549DA2F122887225004E1B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549DA2F222887225004E1B6E /* Build configuration list for PBXNativeTarget "Rescape NavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549DA2F322887225004E1B6E /* Debug */,
+				549DA2F422887225004E1B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549DA2F522887225004E1B6E /* Build configuration list for PBXNativeTarget "Rescape NavigatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549DA2F622887225004E1B6E /* Debug */,
+				549DA2F722887225004E1B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 549DA2C12288721F004E1B6E /* Project object */;
+}
